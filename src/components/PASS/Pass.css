@@ -6,7 +6,7 @@ body{
 
 .PassContainer{
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 80%;
 }
 .overViewInner{
     display: flex;
@@ -67,7 +67,7 @@ body{
     .PassContainer{
 
         height: 100vh;
-
+        
     }
     .overViewInner{
         flex-direction: row;
