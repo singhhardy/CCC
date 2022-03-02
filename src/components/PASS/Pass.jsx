@@ -4,7 +4,7 @@ function Pass() {
     return (
         <div className='PassContainer' id="Pass">
             <div className=' overViewInner'> 
-            <section><video  src='PASS.mp4' loop muted autoPlay/></section>
+            <section className='videocontainer'><video  src='PASS.mp4' loop muted autoPlay/></section>
                 <div className='overviewText'>
                     <p>
                     You have reached the top, you are Ultramodern!

@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
 
-body{
-    background-color: #000;
-}
 
 .PassContainer{
     width: 100%;
@@ -38,6 +35,7 @@ body{
 
         height: 100vh;
         margin-bottom: 80%;
+        margin-top: -30%;
     }
     .overViewInner{
         flex-direction: column;
@@ -48,9 +46,13 @@ body{
   /* justify-content: center; */
         
     }
+    .overViewInner section video{
+        width: 300px;
 
-    video{
-        width: 400px;
+    }
+
+    .videocontainer video{
+        width: 100%;
     }
     
     .overviewText{
