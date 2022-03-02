@@ -2,11 +2,12 @@
 
 body{
     background-color: #000;
+    overflow-x: hidden;
 }
 
 .PassContainer{
     width: 100%;
-    margin-bottom: 80%;
+    margin-bottom: 10%;
 }
 .overViewInner{
     display: flex;
@@ -37,7 +38,7 @@ body{
     .PassContainer{
 
         height: 100vh;
-
+        margin-bottom: 80%;
     }
     .overViewInner{
         flex-direction: column;
@@ -46,8 +47,11 @@ body{
   padding-top: 60px;
 
   /* justify-content: center; */
+        
+    }
 
-
+    video{
+        width: 400px;
     }
     
     .overviewText{
@@ -67,6 +71,7 @@ body{
     .PassContainer{
 
         height: 100vh;
+        padding-bottom: 60%;
         
     }
     .overViewInner{
@@ -92,16 +97,6 @@ body{
         font-weight: normal;
         
     }
-    .overviewImage{
-        margin-top: 20px;
-        height: 50vh;
-        width: 80%;
-    }
-    .overviewImage img{
-        /* transform: (90deg) */
-        width: 100%;
-        transform: scaleX(-1);
-    }
 }
 
 
@@ -109,7 +104,6 @@ body{
     .PassContainer{
 
         height: 100vh;
-
     }
     .overViewInner{
         flex-direction: row;
