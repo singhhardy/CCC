@@ -28,10 +28,10 @@ function NavbarCrypto({setAll,setfaq, setmint}) {
           <div className='navLinks '>
 
             <button className='btn btn-outline-light joinBtn me-3 p-2 '>Join Our Discord</button>
-            <span><i class="fab fa-twitter me-3 "></i></span>
-            <span><i class="fab fa-instagram me-3"></i></span>
+            <a href="https://twitter.com/_CryptoCarClub " target="_blank"><span><i class="fab fa-twitter me-3 "></i></span></a>
+            <a href='https://www.instagram.com/_cryptocarclub/' target="_blank"><span><i class="fab fa-instagram me-3"></i></span></a>
             {/* <span><BsMedium className='fa-instagram me-3 ' /></span> */}
-            <i className='fa fa-medium text-white fs-3'></i>
+            <a href='https://cryptocarclub.medium.com/' target="_blank"><i className='fa fa-medium text-white fs-3'></i></a>
           </div>
         </div>
 
