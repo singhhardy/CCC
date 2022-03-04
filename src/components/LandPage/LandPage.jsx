@@ -2,7 +2,7 @@ import React from 'react'
 import './LandPage.css'
 function LandPage() {
     return (
-        <div className='landPagevideo mt-5'>
+        <div className='landPagevideo mt-5' id='home'>
             <video  src='finalcrypto.mp4' loop muted autoPlay/>
             <div className='landPageText text-white'>
                 <p>

@@ -16,6 +16,10 @@ import PrivacyPolicey from './PRIVACY POLICY/PrivacyPolicey'
 import Faq from  '../components/Faq/Faq'
 import { Routes, Route, Link } from "react-router-dom";
 import SuperMint from './Mint/SuperMint';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 function Home() {
     let [isRouting, setIsRouting]=useState("all")
     const setAll=()=>{

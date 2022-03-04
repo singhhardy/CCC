@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Tokenomics.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Tokenomics() {
+    useEffect(() =>{
+        Aos.init({duration: 1000});
+    }, [])
     return (
-        <div>
+        <div data-aos="fade-up">
             <div className="tokenomicsContainer tokenomicsInner  ">
                 <div className="innerdivtextandimg " >
 <br />

@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./NFT.css"
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 function NFT() {
+    useEffect(() =>{
+        Aos.init({duration: 3000});
+    }, [])
+
     return (
-        <div className='NFTcontainer' id='nft'>
+        <div data-aos="flip-up" id='nft'>
+        <div className='NFTcontainer' >
             <div className='NFTinner'>
                 <div className='NFTtext'>
                     <span>10,000 UNIQUE 3D NFT CARS</span>
@@ -19,6 +28,7 @@ function NFT() {
                 </div>
                 <br />
             </div>
+        </div>                
         </div>
     )
 }

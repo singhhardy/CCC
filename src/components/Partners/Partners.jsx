@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Partners.css';
 import { useForm } from "react-hook-form";
 import {toast} from 'react-toastify'
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
+
 function Partners() {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => toast.success("Request Submited");
+
+    useEffect(() =>{
+        Aos.init({duration: 2000});
+    }, [])
     return (
-        <div className='partnersContainer' id='Partners' >
+        <div data-aos="flip-right" className='partnersContainer' id='Partners' >
             <h1 className='partnersHeading'>BECOME A PARTNER</h1>
             <div className="partnersForm">
                 <form onSubmit={handleSubmit(onSubmit)}>

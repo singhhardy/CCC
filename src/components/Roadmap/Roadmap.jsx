@@ -1,16 +1,26 @@
-import React from 'react'
+import React, {useEffect} from 'react';
 import './Roadmap.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 function Roadmap() {
+    useEffect(() =>{
+        Aos.init({duration: 2000});
+    }, [])
+
     return (
+        <div data-aos="">
         <div className='roadMapContainer' id='Roadmap'>
             <h1 className='roadMapHeading'>ROADMAP</h1>
             <div className='roadMapInner'>
-                <div className='roadMapItem roadMapItem1'>
+                <div  className='roadMapItem roadMapItem1'>
                     <div className='roadMapImage'>
                         <img src='roadmap-image1.png' className='no1roadmap' />
                         <div className="line"></div>
                     </div>
-                    <div className='roadMapItemText'>
+                    
+                    <div  className='roadMapItemText'>
                         <h4>PHASE I - 2021 Q4</h4>
                         <p>Start 10,000 unique NFT car designs</p>
                         <p>Start marketing campaign</p>
@@ -60,7 +70,7 @@ function Roadmap() {
                     </div>
                 </div>
             </div>
-
+            </div>
             <div id='Team'></div>
         </div>
     )

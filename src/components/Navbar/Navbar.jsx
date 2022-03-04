@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import './Navbar.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function NavbarCrypto({setAll,setfaq, setmint}) {
   return (

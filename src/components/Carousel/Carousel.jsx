@@ -14,13 +14,14 @@ function Slides() {
         // dots: true,
         focusOnSelect: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
       });
 
     });
   }, [$])
 
   return (
+    <div data-aos="flip-up">
     <div className='slickSliderContainer'>
       <div className="slider">
         <div>
@@ -59,6 +60,7 @@ function Slides() {
           />
         </div>
       </div>
+    </div>
     </div>
   )
 }

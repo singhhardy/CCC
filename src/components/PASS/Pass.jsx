@@ -1,8 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Pass.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Pass() {
+    useEffect(() =>{
+        Aos.init({duration: 3000});
+    }, [])
     return (
-        <div className='PassContainer' id="Pass">
+        <div data-aos="flip-right" id="Pass">
+        <div className='PassContainer' >
             <div className=' overViewInner'> 
             <section className='videocontainer'><video  src='PASS.mp4' loop muted autoPlay/></section>
                 <div className='overviewText'>
@@ -27,6 +34,7 @@ function Pass() {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }

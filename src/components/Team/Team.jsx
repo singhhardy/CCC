@@ -1,6 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react';
 import './Team.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Team() {
+    useEffect(() =>{
+        Aos.init({duration: 2000});
+    }, [])
+
     return (
         <div className='teamContainer' >
             <h1 className='teamHeading'>TEAM</h1>

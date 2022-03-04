@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Overview.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Overview() {
+    useEffect(() =>{
+        Aos.init({duration: 1000});
+    }, [])
     return (
-        <div className='overViweContainer' id="overview">
+        <div data-aos="flip-left" id="overview">
+        <div  className='overViweContainer' >
             <div className=' overViewInner'>
                 
                 <div className='overviewText'>
@@ -15,8 +22,8 @@ function Overview() {
                 </div>
                 <div className='overviewImage'><img src='MclarenOverView.png' /></div>
             </div>
-
-        </div>
+           
+        </div> </div>
     )
 }
 

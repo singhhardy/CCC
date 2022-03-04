@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Game.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Game() {
+    useEffect(() =>{
+        Aos.init({duration: 1000});
+    }, [])
+
     return (
-      
         <div className='gameContainer' id='Game' >
             <div className='gameVideoContainer'>
                 <video src='ccc-1_trim.mp4' loop muted autoPlay className='gamevideo' />
