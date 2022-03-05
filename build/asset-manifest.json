@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.9b40eb0a.chunk.css",
-  "main.js": "/static/js/main.9965647d.chunk.js",
-  "main.js.map": "/static/js/main.9965647d.chunk.js.map",
+  "main.css": "/static/css/main.7e75d380.chunk.css",
+  "main.js": "/static/js/main.343c3c88.chunk.js",
+  "main.js.map": "/static/js/main.343c3c88.chunk.js.map",
   "static/js/1.d02f08df.chunk.js": "/static/js/1.d02f08df.chunk.js",
   "static/js/1.d02f08df.chunk.js.map": "/static/js/1.d02f08df.chunk.js.map",
   "static/css/2.3a6f1870.chunk.css": "/static/css/2.3a6f1870.chunk.css",
@@ -11,9 +11,9 @@
   "runtime~main.js.map": "/static/js/runtime~main.9098551e.js.map",
   "static/media/logo.svg": "/static/media/logo.06e73328.svg",
   "static/media/Tokenomics.css": "/static/media/rewards-money.fb5c1511.png",
-  "static/css/main.9b40eb0a.chunk.css.map": "/static/css/main.9b40eb0a.chunk.css.map",
+  "static/css/main.7e75d380.chunk.css.map": "/static/css/main.7e75d380.chunk.css.map",
   "static/css/2.3a6f1870.chunk.css.map": "/static/css/2.3a6f1870.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1407af4a0f9ae08238fc97276984c4d3.js": "/precache-manifest.1407af4a0f9ae08238fc97276984c4d3.js",
+  "precache-manifest.e9e8dfd533072152d1b96b0d7c0c5ce8.js": "/precache-manifest.e9e8dfd533072152d1b96b0d7c0c5ce8.js",
   "service-worker.js": "/service-worker.js"
 }

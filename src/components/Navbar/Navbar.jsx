@@ -16,7 +16,7 @@ function NavbarCrypto({setAll,setfaq, setmint}) {
           <Nav  >
           <a href="#overview" className='me-3 text-white  navText' onClick={setAll}>OVERVIEW</a>
           <a href='#Pass' className='me-3 text-white  navText' onClick={setAll}>PASS</a>
-            <a href="#mint" className='me-3 text-white  navText' onClick={setmint}>MINT</a>
+            {/* <a href="#mint" className='me-3 text-white  navText' onClick={setmint}>MINT</a> */}
             <a href="#nft" className='me-3 text-white  navText' onClick={setAll}>NFT</a>
             <a href="#Game" className='me-3 text-white  navText' onClick={setAll}>GAME</a>
             <a href="#Tokenoic" className='me-3 text-white  navText' onClick={setAll}>TOKENOMICS</a>

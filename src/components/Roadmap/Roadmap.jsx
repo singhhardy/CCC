@@ -10,7 +10,7 @@ function Roadmap() {
     }, [])
 
     return (
-        <div data-aos="">
+        <div >
         <div className='roadMapContainer' id='Roadmap'>
             <h1 className='roadMapHeading'>ROADMAP</h1>
             <div className='roadMapInner'>
@@ -20,7 +20,7 @@ function Roadmap() {
                         <div className="line"></div>
                     </div>
                     
-                    <div  className='roadMapItemText'>
+                    <div data-aos="fade-left"  className='roadMapItemText'>
                         <h4>PHASE I - 2021 Q4</h4>
                         <p>Start 10,000 unique NFT car designs</p>
                         <p>Start marketing campaign</p>
@@ -34,7 +34,7 @@ function Roadmap() {
                     <div className='roadMapImage'> <img src='roadmap-image2.png' className='no1roadmap' />
                         <div className="line2"></div>
                     </div>
-                    <div className='roadMapItemText'>
+                    <div data-aos="fade-left" className='roadMapItemText'>
                         <h4>PHASE II - 2022 Q1</h4>
                         <p>Deploy NFT smart contract address on Ethereum Blockchain</p>
                         <p>One time PASS sale and launch Ambassador Program</p>
@@ -49,7 +49,7 @@ function Roadmap() {
                     <div className='roadMapImage'><img src='roadmap-image3.png' className='no1roadmap' />
                         <div className="line3"></div>
                     </div>
-                    <div className='roadMapItemText'>
+                    <div data-aos="fade-left" className='roadMapItemText'>
                         <h4>PHASE III -2022 Q2</h4>
                         <p>Launch Crypto Car Club Game</p>
                         <p>Boost ecosystem and rewards program</p>
@@ -62,7 +62,7 @@ function Roadmap() {
                     <div className='roadMapImage'><img src='roadmap-image4.png'  className='no1roadmap' />
                         <div className="line4"></div>
                     </div>
-                    <div className='roadMapItemText'>
+                    <div data-aos="fade-left" className='roadMapItemText'>
                         <h4 className=''>PHASE IV - 2022 Q3</h4>
                         <p>Start developing a VR version of the game</p>
                         <p>Integrate Logitech equipment for real steering wheels and shifters</p>
