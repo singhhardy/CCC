@@ -10,7 +10,7 @@ function NFT() {
     }, [])
 
     return (
-        <div data-aos="flip-up" id='nft'>
+        <div data-aos="fade-up" id='nft'>
         <div className='NFTcontainer' >
             <div className='NFTinner'>
                 <div className='NFTtext'>

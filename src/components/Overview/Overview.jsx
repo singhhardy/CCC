@@ -8,7 +8,7 @@ function Overview() {
         Aos.init({duration: 1000});
     }, [])
     return (
-        <div data-aos="flip-left" id="overview">
+        <div data-aos="fade-up" id="overview">
         <div  className='overViweContainer' >
             <div className=' overViewInner'>
                 

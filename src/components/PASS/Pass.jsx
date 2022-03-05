@@ -8,7 +8,7 @@ function Pass() {
         Aos.init({duration: 3000});
     }, [])
     return (
-        <div data-aos="flip-right" id="Pass">
+        <div data-aos="fade-up" id="Pass">
         <div className='PassContainer' >
             <div className=' overViewInner'> 
             <section className='videocontainer'><video  src='PASS.mp4' loop muted autoPlay/></section>

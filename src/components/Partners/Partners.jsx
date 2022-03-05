@@ -15,7 +15,7 @@ function Partners() {
         Aos.init({duration: 2000});
     }, [])
     return (
-        <div data-aos="flip-right" className='partnersContainer' id='Partners' >
+        <div data-aos="fade-up" className='partnersContainer' id='Partners' >
             <h1 className='partnersHeading'>BECOME A PARTNER</h1>
             <div className="partnersForm">
                 <form onSubmit={handleSubmit(onSubmit)}>
