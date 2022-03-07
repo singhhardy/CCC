@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
-
+@import url('http://fonts.cdnfonts.com/css/soulcraft');
 
 .PassContainer{
     width: 100%;
@@ -20,8 +19,7 @@
 }
 .overviewText p{
     color: #fff;
-    font-family: 'Aldrich', sans-seri !important;
-    font-size: 20px;
+    font-family: 'Soulcraft', sans-serif;    font-size: 20px;
     font-weight: normal;
 }
 
@@ -61,7 +59,7 @@
     }
     .overviewText p{
         color: #fff;
-        font-family: 'Aldrich', sans-seri !important;
+        font-family: 'Soulcraft', sans-serif;        
         font-size: 14px;
         font-weight: normal;
     }
@@ -92,7 +90,7 @@
     }
     .overviewText p{
         color: #fff;
-        font-family: 'Aldrich', sans-seri !important;
+        font-family: 'Soulcraft', sans-serif;
         font-size: 16px;
         font-weight: normal;
         
@@ -123,7 +121,7 @@
     }
     .overviewText p{
         color: #fff;
-        font-family: 'Aldrich', sans-seri !important;
+        font-family: 'Soulcraft', sans-serif;
         font-size: 16px;
         font-weight: normal;
         

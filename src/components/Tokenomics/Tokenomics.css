@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
-
+@import url('http://fonts.cdnfonts.com/css/soulcraft');
 
 .tokenomicsContainer{
     height: 110vh;
@@ -21,8 +20,7 @@ background: radial-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0,0),rgba(0, 0, 0)),
    
 .tokenHead{
     color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important;  
-    font-size: 50px;
+    font-family: 'Soulcraft', sans-serif;    font-size: 50px;
     font-weight: bold;
     /* padding: 0 20px 10px 20px; */
 }
@@ -37,8 +35,7 @@ z-index: -1;
 
 
 font-size: 23px;
-font-family: 'Aldrich', sans-seri !important;  
-color: #ffffff;
+font-family: 'Soulcraft', sans-serif;color: #ffffff;
 line-height: 2.5rem;
 }
 
@@ -52,11 +49,9 @@ line-height: 2.5rem;
     justify-content: center;
    
 }
-.tekenIcon img{
-    /* width: 17rem; */
 
   
-}
+
 
 .innerdivtextandimg{
 
@@ -132,8 +127,8 @@ line-height: 2.5rem;
 
 
         font-size: 23px;
-        font-family: 'Aldrich', sans-seri !important;  
-        color: #ffffff;
+        font-family: 'Soulcraft', sans-serif;
+                color: #ffffff;
         line-height: 3rem;
         }
 

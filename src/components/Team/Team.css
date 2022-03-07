@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
-
+@import url('http://fonts.cdnfonts.com/css/soulcraft');
 
 .teamContainer{
     width: 100%;
@@ -10,8 +9,7 @@
 }
 .teamHeading{
     color: #ffa05f;
-    font-family: 'Aldrich', sans-seri !important; 
-    text-align: center;
+    font-family: 'Soulcraft', sans-serif;    text-align: center;
     font-size: 50px;
     font-weight: bold;
 }
@@ -50,12 +48,12 @@
     font-weight: bold;
     font-size: 28px;
     margin-top: 20px;
-    font-family: 'Aldrich', sans-seri !important;   
+    font-family: 'Soulcraft', sans-serif;
 }
 .teamItem p{
     color: #fff;
     font-size: 20px;
-    font-family: 'Aldrich', sans-seri !important;  
+    font-family: 'Soulcraft', sans-serif;
 }
 
 

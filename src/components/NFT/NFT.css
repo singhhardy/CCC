@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/soulcraft');
 
 .NFTcontainer{
     height: 100vh;
@@ -26,14 +26,12 @@
     font-size: 38px;
 
 line-height: 30px;
-    font-family: 'Aldrich', sans-seri !important;
-}
+font-family: 'Soulcraft', sans-serif;}
 .NFTtext p{
     color: #fff;
     font-size: 23px;
     font-weight: normal;
-    font-family: 'Aldrich', sans-seri !important;
-    margin-top: 25px;
+    font-family: 'Soulcraft', sans-serif;    margin-top: 25px;
 
 }
 .NFTimage{
