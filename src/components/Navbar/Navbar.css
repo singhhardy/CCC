@@ -1,18 +1,21 @@
-@import url('http://fonts.cdnfonts.com/css/soulcraft');.navContainer{
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+.navContainer{
     background-color: #000;
 }
 
 .joinBtn{
     background-color: #ffa05f;
 
-    font-family: 'Soulcraft', sans-serif;
+    font-family: 'Aldrich', sans-seri !important;
+
     border: none;
     outline: none;
     font-size: 16px;
     font-weight: bold !important;
    
 
-    font-family: 'Soulcraft', sans-serif;    /* width: 10rem !important; */
+    font-family: Aldrich, sans-serif !important;
+    /* width: 10rem !important; */
     border: none !important;
     outline: none !important;
     font-size: 16px !important;
@@ -38,7 +41,8 @@
 }
 .navText{
     font-size: 14px !important;
-    font-family: 'Soulcraft', sans-serif;    text-decoration: none;
+    font-family: 'Aldrich', sans-seri !important;
+    text-decoration: none;
     outline: none;
     margin-left: 0.7rem !important;
 margin-left: 0.7rem !important;

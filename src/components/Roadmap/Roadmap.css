@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/soulcraft');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
 
 .roadMapContainer{
     background-color: #000000;
@@ -8,7 +8,7 @@
 }
 .roadMapHeading{
     color: #ffa05f;
-    font-family: 'Soulcraft', sans-serif;
+    font-family: 'Aldrich', sans-seri !important; 
     text-align: center;
     font-size: 50px;
     font-weight: bold;
@@ -75,12 +75,14 @@
 width: 60%;
 color: #FFF;
 font-size: 22px;
-font-family: 'Soulcraft', sans-serif;
+font-family: 'Aldrich', sans-seri !important; 
+
 }
 .roadMapItemText h4{
     margin-top: 2rem;
     color: #ffa05f;
-    font-family: 'Soulcraft', sans-serif;    font-weight: bold;
+    font-family: 'Aldrich', sans-seri !important; 
+    font-weight: bold;
     font-size: 25px;
 }
 

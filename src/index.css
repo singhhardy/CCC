@@ -1,5 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/soulcraft');
-
 
 html{
   margin: 0;
@@ -11,8 +9,11 @@ html{
 
 body {
   margin: 0;
-  font-family: 'Soulcraft', sans-serif;  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 
   background-color: #000;
     height: 100%;
